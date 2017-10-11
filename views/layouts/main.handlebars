@@ -1,0 +1,164 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="assets/styles/vendor/bootstrap.min.css">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css">
+        <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+        <!-- Slider -->
+        <link rel="stylesheet" href="assets/styles/vendor/slick.css">
+        <!-- Lightbox -->
+        <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css">
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="assets/styles/vendor/animate.css">
+
+
+        <!-- Definity CSS -->
+        <link rel="stylesheet" href="assets/styles/main.css">
+        <link rel="stylesheet" href="assets/styles/responsive.css">
+
+        <!-- JS -->
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body id="page-top">
+        
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <style>
+    .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color:black;
+        z-index: 9999;}   
+
+    @font-face {
+    font-family: Meloriac;
+    src: url(assets/fonts/linea-font/fonts/meloriac.woff);
+    }
+  
+
+.pt-plax-lg-dark {
+    background: #474646 !important;
+    background-size: cover;
+}
+    </style>
+
+
+
+
+        <!-- ========== Preloader ========== -->
+
+        <div class="preloader">
+          <img src="assets/images/loader.svg" alt="Loading...">
+        </div>
+
+
+{{>bsnavbar}}
+
+
+{{{body}}}
+
+
+<footer class="footer-contact">
+    
+    <div class="dark-bg">
+      <div class="container footer-social-links">
+        <div class="row">
+          
+          <ul>
+            <li><a href="https://www.facebook.com/ROLLE00/">facebook</a></li>
+            <li><a href="https://www.instagram.com/rolleoficial/?hl=pt-br">Instagram</a></li>
+            <li><a href="https://www.youtube.com/user/rolenaestrada/featured">YouTube</a></li>
+          </ul>
+
+        </div>
+      </div><!-- / .container -->
+    </div><!-- / .dark-bg -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <small>&copy; 2017 ROLLE. Made by Joao Afonso Assumpção</small>
+          </div>
+
+          <div class="col-md-6">
+            <small><a href="#page-top" class="pull-right to-the-top">Voltar para o topo<i class="fa fa-angle-up"></i></a></small>
+          </div>
+
+        </div><!-- / .row -->
+      </div><!-- / .container -->
+    </div><!-- / .copyright -->
+  </footer><!-- / .footer-contact -->
+
+
+
+
+  <!-- ========== Scripts ========== -->
+
+  <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/vendor/google-fonts.js"></script>
+  <script src="assets/js/vendor/jquery.easing.js"></script>
+  <script src="assets/js/vendor/jquery.waypoints.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <script src="assets/js/vendor/bootstrap-hover-dropdown.min.js"></script>
+  <script src="assets/js/vendor/smoothscroll.js"></script>
+  <script src="assets/js/vendor/jquery.localScroll.min.js"></script>
+  <script src="assets/js/vendor/jquery.scrollTo.min.js"></script>
+  <script src="assets/js/vendor/jquery.stellar.min.js"></script>
+  <script src="assets/js/vendor/jquery.parallax.js"></script>
+  <script src="assets/js/vendor/slick.min.js"></script>
+  <script src="assets/js/vendor/jquery.easypiechart.min.js"></script>
+  <script src="assets/js/vendor/countup.min.js"></script>
+  <script src="assets/js/vendor/isotope.min.js"></script>
+  <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/vendor/wow.min.js"></script>
+  <script src="assets/js/vendor/jquery.mb.YTPlayer.min.js"></script>
+  <script src="assets/js/vendor/jquery.ajaxchimp.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107941760-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107941760-1');
+</script>
+
+
+  <!-- Google Maps -->
+  <script src="assets/js/gmap.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOcd7o0W0r846FC_GoHSK56xeAvP8fV4s"></script>
+
+  <script>
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+  </script>
+  <!-- Definity JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
