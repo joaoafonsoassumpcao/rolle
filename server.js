@@ -6,7 +6,7 @@ var handlebars = require('express-handlebars').create({defaultLayout:'main'});
 
 app.disable('x-powered-by');
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 80);
 
 app.use(express.static(__dirname + '/public'));
 
